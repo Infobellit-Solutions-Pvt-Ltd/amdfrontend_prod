@@ -42,5 +42,5 @@ jobs:
 
           push: true
 
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/convogene-amdui:v1
+          tags: infobellitai/amd_frontend_anand:v1
  
