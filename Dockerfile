@@ -8,7 +8,7 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY ./build /usr/share/nginx/html
  
 # Expose port 443
-EXPOSE 80
+EXPOSE 443
  
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
